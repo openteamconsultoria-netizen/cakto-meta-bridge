@@ -8,7 +8,7 @@
 // Site settings > Environment variables):
 //   CAKTO_WEBHOOK_SECRET   -> o "secret" gerado ao criar o webhook na Cakto
 //   META_ACCESS_TOKEN      -> token de acesso da Conversions API (Events Manager)
-//   META_DATASET_ID        -> 2169479857115440 (o ID do seu dataset "Dados Cakto")
+//   META_DATASET_ID        -> (o ID do seu dataset "Dados Cakto")
 //   META_TEST_EVENT_CODE   -> opcional, só durante testes (aba "Testar Eventos")
 
 const crypto = require('node:crypto');
